@@ -5,6 +5,8 @@ import { StyleSheet, Text, View } from 'react-native';
 import {NavigationContainer} from '@react-navigation/native'
 import {createStackNavigator} from '@react-navigation/stack'
 import ProfileScreen from './components/user_screen/ProfileScreen'
+//import {createStackNavigator} from '@react-navigation/stack'
+//import ProfileScreen from './components/user_screen/ProfileScreen'
 
 const Stack=createStackNavigator();
 export default function App() {
